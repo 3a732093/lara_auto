@@ -1,10 +1,16 @@
 {
     "name": "nuct/auto",
+    "description": "autoload classes",
     "authors": [
         {
             "name": "liao wei chen",
             "email": "rax02270521@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\":"./src/Demo"
+        }
+    }
 }
