@@ -1,5 +1,5 @@
 <?php
-require'../vender/autoload.php';
+require'../vendor/autoload.php';
 
 use \Demo\HelloWorld as World;
 use Demo\Hello\Lara;
